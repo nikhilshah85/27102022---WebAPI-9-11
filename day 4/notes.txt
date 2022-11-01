@@ -1,0 +1,31 @@
+As a API developer 
+	a. Develop and share the API url and based on requirement allow
+		CRUD operations to data
+	b. Consume the API in your application 
+		2 approaches 
+			Client Side api calls for WebAPPS - Fetch API - object built in every browser
+			Server Side - for Desktop app + WebAPP
+
+----------------------------------------------------------------------------------------
+1. Consume APi using fetch 
+2. CORS - Cross Origin Resource Shareing 
+
+	a. Add a nuget package CORS 
+	b. in Program.cs 
+		builder.Services.AddCors(policy =>
+		{
+		    policy.AddDefaultPolicy(defaultPolicy =>
+		    {
+		        defaultPolicy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
+		    });
+		});
+
+	app.UseCors();
+
+
+
+
+
+
+
+

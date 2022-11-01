@@ -1,0 +1,74 @@
+WebAPI Developer
+
+Develop webapi
+	InMemory collection 
+	EF Core with SQL Server
+	CORS
+
+Consume WebAPI
+	Client End - Fetch (object in browser)
+	Server End - HttpClient object
+--------------------------------------------
+Pre-requisite 
+	a. Fundamentals on OOPS and HTML,CSS and JS
+	b. Software setup
+		Visual Studio 2019 / 2022
+		Postman if 2019
+		SQL Server with SSMS
+------------------------------------------
+	Goals
+Be an excellent API Developer and consumer
+
+----------------------------------------------
+	Expectations
+a. Be interactive 
+b. complete task and assignments 
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+		Web Services for data exchange - SOAP Messages
+
+		This days - end users have moved from Desktop/Laptop/ WiFi-Lan
+				to Mobile data
+					which is slow and limited
+					SOAP was very heavy - we need light weight data to be sent 
+
+			SOAP was all about meta data
+
+---------------------------------------------------------------------------------------------------
+			For this kind of communication W3C and ECMA came with a new standard
+			Based on lightweight data exchange - JSON 
+			It follows all the Web and HTTP Standards (which WebService did not follow)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
