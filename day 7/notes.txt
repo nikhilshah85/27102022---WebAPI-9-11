@@ -1,0 +1,36 @@
+
+
+
+
+			Web API is all about Data 
+
+			Data can be anywhere
+
+			Clients / Projects will decide the data source
+
+
+		When the data source changes, we need to rewrite a lot of code, and it will take time
+		but also complexicity
+
+
+	--------------------------------------------------------------------------------------
+			Thus any type of pattern is recommended - and for WebAPI / Data 
+				Repository Pattern
+
+
+			Any DI is based on Interface, 
+
+				We create an interface and a class with will deal with the data source
+
+
+
+
+
+
+
+
+
+
+
+
+

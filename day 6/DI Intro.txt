@@ -1,0 +1,40 @@
+
+
+
+As a developer, we create lots of objects in an app
+We never write destructor, or even call dispose method
+
+
+Thus in a web app, where server recieves more than 1000 request in a day
+
+server keeps getting flodded with objects and reference
+
+However, GC takes care of it, but we dont know when will GC comes
+
+----------------------------------------------------------------
+
+Thus now on, We as a developer should not create any object, framework/Runtime will create the object
+
+	1. Object will be created by Runtime, and will be Injected at the place of need
+	2. Object will be destoyed by runtime, bases on your configuration
+		This is based on shareing the object
+			object can be created and destroyed based on following
+			1. For every new request 
+				(PerCall - Transcient)
+
+			2. For every user (session) - 1 new obj for every user
+				 (PerSession)
+			3. Global Object - same object used by every user (eg. connection string) -
+				 (SingleTon)
+
+
+
+
+
+
+
+
+
+
+
+

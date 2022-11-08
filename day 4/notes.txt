@@ -23,7 +23,8 @@ As a API developer
 	app.UseCors();
 
 
-
+1. Fetch API - this is the fastest and lightest way to get the data, but less secure, as it will revel all the information about the call will get disclosed
+2. It is only for WebAPPS
 
 
 

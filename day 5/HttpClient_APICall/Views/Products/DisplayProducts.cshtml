@@ -1,0 +1,14 @@
+﻿
+
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.data)
+    {
+        <tr>
+            <td> @item.pId </td>
+            <td> @item.pName </td>
+            <td> @item.pCategory </td>
+            <td> @item.pPrice </td>
+            <td> @item.pIsInStock </td>
+        </tr>
+    }
+</table>
